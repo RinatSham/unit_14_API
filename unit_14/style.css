@@ -1,0 +1,48 @@
+html, body {
+    font-family: serif;
+}
+body {
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html{
+   box-sizing: border-box;
+ }
+ *,
+ *::before,
+ *::after{
+   box-sizing: inherit;
+ }
+ .box_api{
+    padding: 40px;
+    border: 1px solid grey;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 35px -4px rgba(199,191,199,1);
+    background: linear-gradient(to right, rgba(239,1,124,1) 0%, rgb(92, 35, 145) 100%);
+    color: #fff;
+    position: relative;
+ }
+ .city_name{
+    font-size: 35px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 15px;
+    font-weight: 700;
+ }
+ .temp{
+    font-size: 25px;
+ }
+ .clouds{
+    margin-bottom: 15px;
+    font-style: italic;
+ }
+ .icon img{
+    width: 60px;
+    height: 60px;
+ }
+ .enter_city{
+   position: absolute;
+   right: 15px;
+   top: 22px;
+ }
